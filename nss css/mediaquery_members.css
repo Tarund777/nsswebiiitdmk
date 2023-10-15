@@ -1,0 +1,404 @@
+@media screen and (max-width: 480px) {
+    body{
+        overflow-x: hidden;
+        
+    }
+    body::-webkit-scrollbar{
+        display: none;
+    }
+    .header{
+        display: none;
+        flex-direction: column;
+        width: 40vw;
+        height: 100vh;
+        position: absolute;
+        left: 0vw;
+        top: 0vw;
+        align-content: center;
+        justify-content: center;
+        z-index: 4;
+
+    }
+    .header ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        padding: 2px 20px;
+    }
+    .selbtn1 {
+        width: 20vw;
+        height: 5vw;
+        font-size: 2.5vw;
+    }
+ 
+    #nss-head-logo {
+        width: 10vw;
+        position: relative;
+        left: 11vw;
+        top: -4vw;
+    }
+    
+    .events-head {
+        z-index: 2;
+        width: 100vw;
+        height: 15vw;
+        position: absolute;
+        top: 0vw;
+        background-color: aquamarine;
+    }
+    .events-heading pre {
+        margin: 1px;
+        letter-spacing: 6px;
+        font-size: 5vw;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        font-weight: 700;
+    }
+    #moto {
+        position: absolute;
+        top: 0vw;
+        left: 41vw;
+        margin: 1px;
+        letter-spacing: 3px;
+        font-size: 2.8vw;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        font-weight: 400;
+    }
+    
+    #options {
+        background-color: transparent;
+        top: 0vw;
+        display: initial;
+        z-index: 5;
+        transition-duration: 1.2s;
+        transition-property: all;
+    }
+    #selbtn12 {
+        width: 20vw;
+        font-size: 2.3vw;
+    }
+
+
+
+
+
+.batch_container{
+    height:385vw;
+    max-height: none;
+}
+
+#batch21 {
+    position: absolute;
+    top: 15vw;
+    left: 100vw;
+    height: auto;
+}
+#batch20 {
+    /* z-index: 8; */
+    /* background-color: white; */
+    position: absolute;
+    top: 15vw;
+    left: 200vw;
+}
+
+
+    .managers {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        top: 25vw;
+        width: 90vw;
+        height: auto;
+        left: 5vw;
+    }
+/* codéfor pics */
+.team-head {
+    width: 30vw;
+    height: 25vw;
+    border: 1px solid transparent;
+    position: relative;
+    top: 20vw;
+    left: 35vw;
+    transition-duration: 0.2s;
+}
+.team-head img {
+    width: 15vw;
+    position: absolute;
+    top: 0.5vw;
+    left: 7.5vw;
+    border-radius: 100px;
+    border: 1px solid yellow;
+    height: 15vw;
+}
+
+.members-head {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 25vw;
+    width: 90vw;
+    height: auto;
+    left: 5vw;
+    /* background-color: aqua; */
+}
+.members {
+    margin: 5px 25px;
+    width: 30vw;
+    height: 28vw;
+    border: 1px solid transparent;
+    position: relative;
+    top: 0vw;
+    transition-duration: 0.2s;
+}
+.members img {
+    width: 15vw;
+    position: absolute;
+    top: 0.5vw;
+    left: 7.5vw;
+    border-radius: 100px;
+    border: 1px solid yellow;
+    height: 15vw;
+}
+.position {
+   
+    position: absolute;
+    top: 16.5vw;
+    left: 5vw;
+    width: 20vw;
+    height: 4vw;
+    font-size: 2.5vw;
+    text-align: center;
+}
+.head-name {
+   
+    position: absolute;
+    top: 21vw;
+    width: 25vw;
+    left: 2.5vw;
+    height: 5vw;
+    font-size: 2.5vw;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.prev-batches {
+   
+    position: relative;
+    top: 30vw;
+    width: 100vw;
+    margin: 0px;
+    height: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.prev-batches a {
+    position: relative;
+    margin: 5px 5px;
+    top: 0vw;
+    width: 24vw;
+    height: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+footer{
+    position: relative;
+    z-index: 0;
+    top: 10vw;
+    left: 0vw;
+}
+
+    .foot {
+        position: relative;
+
+        top: 0vw;
+        height: 34.3rem;
+
+    }
+
+    .content {
+        flex-direction: column;
+        align-content: space-around;
+        justify-items: baseline;
+        height: auto;
+        padding: 25px 0px;
+        margin-left: -14vw;
+    }
+
+    .addresscont {
+        width: 60vw;
+        height: 30vw;
+    }
+
+    .addresscont pre {
+        font-size: 2.4vw;
+    }
+
+    .addresscont p {
+        font-size: 4vw;
+        top: -7vw;
+        left: 11vw;
+    }
+
+    .location-head {
+        top: 15vw;
+        position: relative;
+        left: -16vw;
+        font-size: 4vw;
+    }
+
+    .majorobj {
+        position: relative;
+        top: 14vw;
+        left: 6vw;
+        width: 60vw;
+        height: 30vw
+    }
+
+
+    .majorobj iframe {
+        width: 60vw;
+        height: 40vw;
+    }
+
+    .quicklink-head {
+        font-size: 4vw;
+        top: 36vw;
+        left: 12vw;
+    }
+
+    .quicklink {
+        height: 30vw;
+
+    }
+
+   .quicklink ul {
+        top: 3.5vw;
+        left: -22vw;
+    }
+
+    li a {
+        font-size: 2.5vw;
+    }
+
+    .instalink {
+        position: relative;
+        top: -64vw;
+        left: 28vw;
+        width: 1vw;
+    }
+    .instalink pre{
+        position: relative;
+        color: white;
+        font-size: 5vw;
+        top: -8vw;
+        left: 24vw;
+    }
+
+    .instalink pre a {
+        font-size: 4.5vw;
+    }
+
+    .instalink pre a i {
+        color: white;
+        font-size: 4.5vw;
+    }
+    .copyright{
+        width: 97vw;
+        font-size: 2vw;
+        color: white;
+        position: relative;
+        top: -3vw;
+        left: 2vw;
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width: 700px){
+    @media  screen and (max-width:1024px) {
+        
+        #nss-head-logo {
+            width: 5vw;
+            position: relative;
+            left: 1vw;
+            z-index: 1;
+        }
+   footer{
+    top: 150vw;
+   }
+    
+    .foot{
+        height: 30vw;
+
+    }
+    .copyright {
+        font-size: 1.2vw;
+        color: white;
+        position: relative;
+        top: 2vw;
+        left: 4vw;
+    }
+    .instalink {
+        position: relative;
+        top: 2vw;
+        left: 17vw;
+    }
+    .members {
+        width: 17vw;
+        height: 17vw;
+        border: 1px solid transparent;
+        position: relative;
+        top: 0vw;
+        transition-duration: 0.2s;
+    }
+    .team-head {
+        width: 17vw;
+        height: 17vw;
+        border: 1px solid transparent;
+        position: relative;
+        top: 8vw;
+        left: 42.5vw;
+        transition-duration: 0.2s;
+    }
+
+    .team-head img {
+        width: 10vw;
+        position: absolute;
+        top: 0.5vw;
+        left: 3.5vw;
+        border-radius: 100px;
+        border: 1px solid yellow;
+        height: 10vw;
+    }
+
+    .position {
+        position: absolute;
+        top: 11.5vw;
+        width: 17vw;
+        height: 3vw;
+        font-size: 1.5vw;
+        text-align: center;
+    }
+}
+}
+

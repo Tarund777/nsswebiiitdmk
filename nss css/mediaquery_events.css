@@ -1,0 +1,348 @@
+@media screen and (max-width: 480px) {
+    body{
+        overflow-x: hidden;
+        
+    }
+    body::-webkit-scrollbar{
+        display: none;
+    }
+    .header{
+        display: none;
+        flex-direction: column;
+        width: 40vw;
+        height: 100vh;
+        position: absolute;
+        left: 0vw;
+        top: 0vw;
+        align-content: center;
+        justify-content: center;
+        z-index: 4;
+
+    }
+    .header ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        padding: 2px 20px;
+    }
+    .selbtn1 {
+        width: 20vw;
+        height: 5vw;
+        font-size: 2.5vw;
+    }
+ 
+    #nss-head-logo {
+        width: 10vw;
+        position: relative;
+        left: 11vw;
+        top: -4vw;
+    }
+    
+    .events-head {
+        width: 100vw;
+        height: 15vw;
+        position: absolute;
+        top: 0vw;
+        background-color: aquamarine;
+    }
+    .events-heading pre {
+        margin: 1px;
+        letter-spacing: 6px;
+        font-size: 5vw;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        font-weight: 700;
+    }
+    #moto {
+        position: absolute;
+        top: 0vw;
+        left: 41vw;
+        margin: 1px;
+        letter-spacing: 3px;
+        font-size: 2.8vw;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        font-weight: 400;
+    }
+    
+    #options {
+        background-color: transparent;
+        top: 0vw;
+        display: initial;
+        z-index: 5;
+        transition-duration: 1.2s;
+        transition-property: all;
+    }
+    #selbtn12 {
+        width: 20vw;
+        font-size: 2.3vw;
+    }
+
+    .events_cont {
+        position: relative;
+        top: 15vw;
+        width: 100vw;
+        height: auto;
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+    }
+    .eve_matter {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 0vw;
+        width: 100vw;
+        height: 80vw;
+        background-color: #75498d;
+    }
+   #eve1{
+    width: 100vw;
+    height: 40vw;
+   }
+   #eve2{
+    width: 100vw;
+    height: 40vw;
+    top: 40vw;
+    left: 0vw;
+   }
+   #eve3{
+    width: 100vw;
+    height: 40vw;
+   }
+   #eve4{
+    width: 100vw;
+    height: 40vw;
+    top: 40vw;
+    left: 0vw;
+   }
+   #eve5{
+    width: 100vw;
+    height: 40vw;
+   }
+   #eve6{
+    width: 100vw;
+    height: 40vw;
+    top: 40vw;
+    left: 0vw;
+   }
+   #eve7{
+    width: 100vw;
+    height: 40vw;
+   }
+   #eve8{
+    width: 100vw;
+    height: 40vw;
+    top: 40vw;
+    left: 0vw;
+   }
+   #eve9{
+    width: 100vw;
+    height: 40vw;
+   }
+   #eve10{
+    width: 100vw;
+    height: 40vw;
+    top: 40vw;
+    left: 0vw;
+   }
+   #eve11{
+    width: 100vw;
+    height: 40vw;
+   }
+   #eve12{
+    width: 100vw;
+    height: 40vw;
+    top: 40vw;
+    left: 0vw;
+   }
+   #eve13{
+    width: 100vw;
+    height: 40vw;
+   }
+   #eve14{
+    width: 100vw;
+    height: 40vw;
+    top: 40vw;
+    left: 0vw;
+   }
+   #eve15{
+    width: 100vw;
+    height: 40vw;
+   }
+   #eve16{
+    width: 100vw;
+    height: 40vw;
+    top: 40vw;
+    left: 0vw;
+   }
+
+   .eve-matter-display {
+    display: none;
+    font-size: 1.5vw;
+    padding: 10px;
+    width: 80vw;
+    height: 70vw;
+    position: fixed;
+    top: 50vw;
+    left: 7.5vw;
+    background-color: #ffffff;
+    z-index: 4;
+    border-radius: 15px;
+    overflow-y: auto;
+}
+.eve-matter-display pre{
+    font-size: 2.5vw;
+    font-family: 'Poppins', sans-serif;
+}
+#close {
+    display: none;
+    z-index: 4;
+    position: fixed;
+    top: 51.5vw;
+    left: 87vw;
+    width: 3.5vw;
+    height: 3.5vw;
+    border: none;
+    border-radius: 8px;
+    background-color: red;
+}
+
+/* codéfor pics */
+
+
+footer{
+    z-index: 0;
+    left: 0vw;
+    top: 15vw;
+}
+
+    .foot {
+        position: relative;
+
+        top: 0vw;
+        height: 34.3rem;
+
+    }
+
+    .content {
+        flex-direction: column;
+        align-content: space-around;
+        justify-items: baseline;
+        height: auto;
+        padding: 25px 0px;
+        margin-left: -14vw;
+    }
+
+    .addresscont {
+        width: 60vw;
+        height: 30vw;
+    }
+
+    .addresscont pre {
+        font-size: 2.4vw;
+    }
+
+    .addresscont p {
+        font-size: 4vw;
+        top: -7vw;
+        left: 11vw;
+    }
+
+    .location-head {
+        top: 15vw;
+        position: relative;
+        left: -16vw;
+        font-size: 4vw;
+    }
+
+    .majorobj {
+        position: relative;
+        top: 14vw;
+        left: 6vw;
+        width: 60vw;
+        height: 30vw
+    }
+
+
+    .majorobj iframe {
+        width: 60vw;
+        height: 40vw;
+    }
+
+    .quicklink-head {
+        font-size: 4vw;
+        top: 36vw;
+        left: 12vw;
+    }
+
+    .quicklink {
+        height: 30vw;
+
+    }
+
+    .quicklink ul {
+        top: 3.5vw;
+        left: -22vw;
+    }
+
+    li a {
+        font-size: 2.5vw;
+    }
+
+    .instalink {
+        position: relative;
+        top: -64vw;
+        left: 28vw;
+        width: 1vw;
+    }
+    .instalink pre{
+        position: relative;
+        color: white;
+        font-size: 5vw;
+        top: -8vw;
+        left: 24vw;
+    }
+
+    .instalink pre a {
+        font-size: 4.5vw;
+    }
+
+    .instalink pre a i {
+        color: white;
+        font-size: 4.5vw;
+    }
+    .copyright{
+        width: 97vw;
+        font-size: 2vw;
+        color: white;
+        position: relative;
+        top: -3vw;
+        left: 2vw;
+    }
+
+}
+
+@media screen and (min-width: 700px){
+    
+    .foot{
+        height: 30vw;
+    }
+    .copyright {
+        font-size: 1.2vw;
+        color: white;
+        position: relative;
+        top: 2vw;
+        left: 4vw;
+    }
+    .instalink {
+        position: relative;
+        top: 2vw;
+        left: 17vw;
+    }
+}
+

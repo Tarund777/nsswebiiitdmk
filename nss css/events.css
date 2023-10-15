@@ -1,0 +1,554 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.events-head{
+    width: 100vw;
+    height: 20vw;
+    position: relative;
+    top: 4.1vw;
+    background-color: aquamarine;
+
+}
+.events-layer{
+    width: 100vw;
+    height: 20vw;
+    position: absolute;
+    background-color:  rgb(0 0 0);
+    opacity: 70%;
+}
+.events-heading {
+    font-size: 3vw;
+    position: absolute;
+    text-align: end;
+    top: 3.5vw;
+    left: 6vw;
+}
+#hrevents{
+    margin: 1px;
+}
+#moto{
+    position: absolute;
+    top: 4.5vw;
+    left: 40vw;
+    margin: 1px;
+    letter-spacing: 9px;
+    font-size: 3vw;
+     font-family:  'Poppins', sans-serif;    
+     color: #fff;
+     font-weight: 400;
+}
+.events-heading pre{
+    margin: 1px;
+    letter-spacing: 9px;
+    font-size: 5.5vw;
+     font-family:  'Poppins', sans-serif;    
+     color: #fff;
+     font-weight: 700;
+}
+
+.clgpic img{
+    width: 100vw;
+    height: 20vw;
+
+}
+
+#options {
+    display: none;
+    width: 5.5vw;
+    height: 5.5vw;
+    border: none;
+    outline: none;
+    /* background-color: #31398a; */
+    position: absolute;
+    left: 0vw;
+    top: 0vw;
+    padding: 0;
+
+}
+
+#options i {
+    font-size: 5vw;
+}
+#hr1{
+    visibility: hidden;
+}
+.header {
+    position: absolute;
+    top: 0vw;
+    box-sizing: border-box;
+    height: 5vw;
+    width: 100vw;
+    background-color: #fff;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header ul {
+    top: 0.1vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 2px 20px;
+}
+#nss-head-logo{
+    width: 5vw;
+    position: relative;
+    left: -3vw;
+    z-index: 1;
+}
+
+
+.selbtn1 {
+    width: 10vw;
+    height: auto;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    font-size: 1.5vw;
+
+    margin: 2px 20px;
+}
+
+#selbtn12 {
+    width: 15vw;
+    font-size: 1.3vw;
+}
+
+.selbtn1:hover {
+    /* border: 4px solid #e53624; */
+    background-color: #6c63ff;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+#options {
+    display: none;
+    width: 5.5vw;
+    height: 5.5vw;
+    border: none;
+    outline: none;
+    /* background-color: #31398a; */
+    position: absolute;
+    left: 0vw;
+    top: 10.5vw;
+    padding: 0;
+
+}
+
+#options i {
+    font-size: 5vw;
+}
+#selbtn114{
+    display: none;
+}
+
+.events_cont {
+    position: relative;
+    top: 4vw;
+    width: 100vw;
+    height: auto;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+.eve_matter {
+    display: flex;
+    position: relative;
+    top: 0vw;
+    width: 100vw;
+    height: 30vw;
+    background-color: #75498d;
+}
+.eve_matter_cont{
+    position: absolute;
+    top: 0vw;
+    width: 50vw;
+    height: 30vw;
+    /* background-color: #498d6b; */
+}
+.eve_matter_cont:hover{
+    .eve-layer{
+       visibility: collapse;
+    }
+}
+.eve_matter_cont img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+}
+.event-head2{
+    font-family: 'Poppins', sans-serif;
+       text-align: center;
+       font-size: 8.5vw;
+        position: absolute;
+        width: 100%;
+        top: 7.5vw;
+        height: 15vw;
+        color: #fff;
+        text-decoration: underline;
+        z-index: 3;
+        opacity: 85%;
+}
+
+.eve-layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+   opacity: 65%;
+   visibility: visible;
+   transition: opacity ease 2s;
+}
+.eve_matter_content pre{
+    display: none;
+}
+.eve-matter-display {
+    display: none;
+    font-size: 1.5vw;
+    padding: 10px;
+    width: 60vw;
+    height: 30vw;
+    position: fixed;
+    top: 15vw;
+    left: 20vw;
+    background-color: #ffffff;
+    z-index: 4;
+    border-radius: 15px;
+    overflow-y: auto;
+
+}
+#close {
+    display: none;
+    z-index: 4;
+    position: fixed;
+    top: 15.5vw;
+    left: 79vw;
+    width: 1.5vw;
+    height: 1.5vw;
+    border: none;
+    border-radius: 8px;
+    background-color: red;
+}
+.eve-matter-display pre{
+    font-size: 1.5vw;
+    font-family: 'Poppins', sans-serif;
+}
+.eve-matter-display1{
+    display: none;
+}
+
+#eve1{
+    width: 60vw;
+}
+
+#eve1 .eve-layer{
+    background-color: #71ffff;
+    opacity: 65%;
+  
+}
+
+#eve2{
+    width: 40vw;
+    left: 60vw;
+   
+}
+#eve2 .eve-layer{
+    background-color: #ec8d81;
+    opacity: 65%;
+  
+}
+#eve3{
+    width: 45vw;
+    
+}
+#eve3 .eve-layer{
+    background-color: #8d82c4;
+    opacity: 65%;
+  
+}
+#eve4{
+    width: 55vw;
+    left: 45vw;
+    background-color: rgb(161, 206, 217);
+}
+#eve4 .eve-layer{
+    background-color: #cec9c9;
+    opacity: 65%;
+  
+}
+#eve5{
+    width: 50vw;
+  
+}
+#eve5 .eve-layer{
+    background-color:#ec8d81 ;
+    opacity: 65%;
+  
+}
+#eve6{
+    width: 50vw;
+    left: 50vw;
+    background-color: rgb(0, 217, 105);
+}
+#eve6 .eve-layer{
+    background-color:#e7b788 ;
+    opacity: 65%;
+  
+}
+#eve7{
+    width: 40vw;
+    background-color: rgb(18, 74, 96);
+}
+#eve7 .eve-layer{
+    background-color:#8ea9e8;
+    opacity: 65%;
+  
+}
+#eve8{
+    width: 60vw;
+    left: 40vw;
+    background-color: rgba(4, 0, 19, 0.729);
+}
+#eve8 .eve-layer{
+    background-color:#87c5a4 ;
+    opacity: 65%;
+  
+}
+#eve9{
+    width: 55vw;
+   
+}
+#eve9 .eve-layer{
+    background-color: #e7b65d99;
+    opacity: 65%;
+  
+}
+#eve10{
+    width: 45vw;
+    left: 55vw;
+    background-color: rgba(90, 110, 118, 0.642);
+}
+#eve10 .eve-layer{
+    background-color: #3eef91a8;
+    
+    opacity: 65%;
+}
+  
+
+#eve11{
+    width: 50vw;
+    background-color: rgba(135, 148, 0, 0.642);
+}
+#eve11 .eve-layer{
+    background-color: #5f5d5d;
+    opacity: 65%;
+  
+}
+#eve12{
+    width: 50vw;
+    left: 50vw;
+    background-color: rgba(255, 255, 255, 0.642);
+}
+#eve12 .eve-layer{
+    background-color: #06330b93;
+    opacity: 65%;
+  
+}
+#eve13{
+    width: 40vw;
+    background-color: rgba(145, 5, 157, 0.642);
+}
+#eve13 .eve-layer{
+    background-color: #e2b3ad;
+    opacity: 65%;
+  
+}
+#eve14{
+    width:60vw;
+    left: 40vw;
+    background-color: rgba(119, 2, 139, 0.642);
+}
+#eve14 .eve-layer{
+    background-color:#ff7676 ;
+    opacity: 65%;
+  
+}
+#eve15{
+    width: 45vw;
+    background-color: rgba(217, 2, 255, 0.642);
+}
+#eve15 .eve-layer{
+    background-color: #ec8d81;
+    opacity: 65%;
+  
+}
+#eve16{
+    width: 55vw;
+    left: 45vw;
+    background-color: rgba(0, 164, 229, 0.962);
+}
+#eve16 .eve-layer{
+    background-color: #8d82c4;
+    opacity: 65%;
+  
+}
+footer{
+    position: relative;
+    top: 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.foot{
+    
+    position: absolute;
+    top: 90% ;
+    box-sizing: border-box;
+    height: 25vw;
+    width: 100vw;
+    background-color: black;
+   
+   
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  
+    height: 20vw;
+    width: 100vw;
+    
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.5vw;
+   
+}
+.addresscont{
+    position: relative;
+    left: -5vw;
+    top: -1vw; 
+    border: none;
+    width: 25vw;
+    height: 11vw;
+    justify-content: center;
+    align-items: flex-start;
+}
+.addresscont pre{
+    font-size: 1.3vw;
+    font-family:'Poppins', sans-serif ;
+
+}
+.addresscont p{
+    font-size: 2vw;
+    position: absolute;
+    top: -4vw;
+    left: 6vw;
+    text-decoration: underline;
+}
+.quicklink-head{
+    font-size: 2vw;
+    position: absolute;
+    top: 1.5vw;
+    left: 37.5vw;
+    font-family:'Poppins', sans-serif ;
+    text-decoration: underline;
+
+}
+.quicklink{
+    border: none;
+    /* border: 1px solid;
+    border-radius: 4px; */
+
+    width: 25vw;
+    height: 11vw;
+    justify-content: center;
+    align-items: flex-start;
+}
+ul{
+    position: relative;
+    top: -0.9vw;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    font-size: 1vw;
+
+}
+
+li{
+    list-style: none;
+    padding: 5px 1px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3vw;
+    font-family:'Poppins', sans-serif ;
+}
+li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.location-head{
+    font-size: 2vw;
+    text-decoration: undedrline;
+    position: absolute;
+    top: -1vw;
+    left: 72vw;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+}
+.majorobj{
+    background-color: aliceblue;
+    
+    border: none;
+    /* border: 1px solid;
+    border-radius: 4px; */
+    width: 25vw;
+    height: 11vw;
+    justify-content: center;
+    align-items: flex-start;
+}
+.majorobj iframe{
+    width: 25vw;
+    height: 18vw;
+}
+.copyright{
+    font-size: 1.2vw;
+    color: white;
+    position: relative;
+    top: 0vw;
+    left: 4vw;
+
+}
+.instalink pre{
+    
+    position: relative;
+    color: white;
+    font-size: 1vw;
+    top: -2vw;
+    left: 37vw;
+}
+.instalink pre a i{
+    color: white;
+    font-size: 1.5vw;
+}

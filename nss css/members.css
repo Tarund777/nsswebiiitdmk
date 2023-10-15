@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.events-head{
+    width: 100vw;
+    height: 20vw;
+    position: relative;
+    top: 4.1vw;
+    background-color: aquamarine;
+
+}
+.events-layer{
+    width: 100vw;
+    height: 20vw;
+    position: absolute;
+    background-color:  rgb(0 0 0);
+    opacity: 70%;
+}
+.events-heading {
+    font-size: 3vw;
+    position: absolute;
+    text-align: end;
+    top: 3.5vw;
+    left: 6vw;
+}
+#hrevents{
+    margin: 1px;
+}
+#moto{
+    position: absolute;
+    top: 4.5vw;
+    left: 40vw;
+    margin: 1px;
+    letter-spacing: 9px;
+    font-size: 3vw;
+     font-family:  'Poppins', sans-serif;    
+     color: #fff;
+     font-weight: 400;
+}
+.events-heading pre{
+    margin: 1px;
+    letter-spacing: 9px;
+    font-size: 5.5vw;
+     font-family:  'Poppins', sans-serif;    
+     color: #fff;
+     font-weight: 700;
+}
+
+.clgpic img{
+    width: 100vw;
+    height: 20vw;
+
+}
+
+#options {
+    display: none;
+    width: 5.5vw;
+    height: 5.5vw;
+    border: none;
+    outline: none;
+    /* background-color: #31398a; */
+    position: absolute;
+    left: 0vw;
+    top: 0vw;
+    padding: 0;
+
+}
+
+#options i {
+    font-size: 5vw;
+}
+#hr1{
+    visibility: hidden;
+}
+.header {
+    position: absolute;
+    top: 0vw;
+    box-sizing: border-box;
+    height: 5vw;
+    width: 100vw;
+    background-color: #fff;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header ul {
+    top: 0.1vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 2px 20px;
+}
+#nss-head-logo{
+    width: 5vw;
+    position: relative;
+    left: -3vw;
+    z-index: 1;
+}
+
+
+.selbtn1 {
+    width: 10vw;
+    height: auto;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    font-size: 1.5vw;
+
+    margin: 2px 20px;
+}
+
+#selbtn12 {
+    width: 15vw;
+    font-size: 1.3vw;
+}
+
+.selbtn1:hover {
+    /* border: 4px solid #e53624; */
+    background-color: #6c63ff;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+#options {
+    display: none;
+    width: 5.5vw;
+    height: 5.5vw;
+    border: none;
+    outline: none;
+    /* background-color: #31398a; */
+    position: absolute;
+    left: 0vw;
+    top: 10.5vw;
+    padding: 0;
+    transition-duration: 1.2s;
+    transition-property: all;
+
+}
+
+#options i {
+    font-size: 5vw;
+}
+#selbtn114{
+    display: none;
+}
+.batch_container{
+    position: relative;
+    top: 4vw;
+    width: 100vw;
+    max-height: 120vw;
+    overflow-x: hidden;
+   overflow-y: hidden;
+}
+.batches{
+    /* height: auto; */
+    width: 100vw;
+    /* height:auto; */
+}
+#batch21{
+   
+    position: relative;
+    top: 30vw;
+    height: 100vw;
+}
+#batch20{
+    height: 130vw;
+    position: relative;
+    top: 75vw;
+}
+.team-head {
+    width: 15vw;
+    height: 15vw;
+    
+    border: 1px solid transparent;
+    position: relative;
+    top: 8vw;
+    left: 42.5vw;
+    transition-duration: 0.2s;
+}
+.team-head:hover{
+    border: 0.1px solid;
+    transform:scale(1.05);
+    box-shadow: 5px 10px 25px black;
+    transition-duration: 0.2s;
+    transition-property: all;
+}
+.position{
+    position: absolute;
+    top: 11.5vw;
+    width: 15vw;
+    height: 3vw;
+    font-size: 1vw;
+    text-align: center;
+}
+.head-name{
+    position: absolute;
+    top: 13vw;
+    width: 15vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.team-head img{
+    width: 10vw;
+    position: absolute;
+    top: 0.5vw;
+    left: 2.5vw;
+    border-radius: 100px;
+    border: 1px solid yellow;
+    height: 10vw;
+}
+.managers{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 15vw;
+    width: 90vw;
+    height: auto;
+    left: 5vw;
+}
+.members{
+    width: 15vw;
+    height: 15vw;
+    border: 1px solid transparent;
+    position: relative;
+    top: 0vw;
+    transition-duration: 0.2s;
+    
+}
+.members:hover{
+    border: 0.1px solid;
+    transform:scale(1.05);
+    box-shadow: 5px 10px 25px black;
+    transition-duration: 0.2s;
+    transition-property: all;
+
+    .mail{
+        display: initial;
+    }
+}
+.members img{
+    width: 10vw;
+    position: absolute;
+    top: 0.5vw;
+    left: 2.5vw;
+    border-radius: 100px;
+    border: 1px solid yellow;
+    height: 10vw;
+}
+
+.members-head{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 15vw;
+    width: 90vw;
+    height: auto;
+    left: 5vw;
+    /* background-color: aqua; */
+}
+.mail {
+    background-color: #fff2c4;
+    width: 15vw;
+    height: 2.3vw;
+    position: absolute;
+    top: 13vw;
+    display: none;
+}
+
+.mail a{
+    font-size: 1vw;
+    text-decoration: none;
+    color: black;
+}
+.prev-batches {
+    position: relative;
+    top: 25vw;
+    width: 100vw;
+    height: 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.prev-batches a{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5vw;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    width: 12vw;
+    height: 3vw;
+    border-radius: 23px;
+    background-color: #6c63ff;
+    color: #fff;
+    margin: 0px 30px;
+    transition-duration: 0.2s;
+}
+.prev-batches a:hover{
+    transform:scale(1.05);
+    box-shadow: 5px 10px 25px black;
+    transition-duration: 0.2s;
+    transition-property: all;
+}
+
+footer{
+    position: absolute;
+    top:140vw;
+    left: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.foot{
+    
+    position: absolute;
+    top: 90% ;
+    box-sizing: border-box;
+    height: 25vw;
+    width: 100vw;
+    background-color: black;
+   
+   
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  
+    height: 20vw;
+    width: 100vw;
+    
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.5vw;
+   
+}
+.addresscont{
+    position: relative;
+    left: -5vw;
+    top: -1vw; 
+    border: none;
+    width: 25vw;
+    height: 11vw;
+    justify-content: center;
+    align-items: flex-start;
+}
+.addresscont pre{
+    font-size: 1.3vw;
+    font-family:'Poppins', sans-serif ;
+
+}
+.addresscont p{
+    font-size: 2vw;
+    position: absolute;
+    top: -4vw;
+    left: 6vw;
+    text-decoration: underline;
+}
+.quicklink-head{
+    font-size: 2vw;
+    position: absolute;
+    top: 1.5vw;
+    left: 37.5vw;
+    font-family:'Poppins', sans-serif ;
+    text-decoration: underline;
+
+}
+.quicklink{
+    border: none;
+    /* border: 1px solid;
+    border-radius: 4px; */
+
+    width: 25vw;
+    height: 11vw;
+    justify-content: center;
+    align-items: flex-start;
+}
+ul{
+    position: relative;
+    top: -0.9vw;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    font-size: 1vw;
+
+}
+
+li{
+    list-style: none;
+    padding: 5px 1px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3vw;
+    font-family:'Poppins', sans-serif ;
+}
+li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.location-head{
+    font-size: 2vw;
+    text-decoration: undedrline;
+    position: absolute;
+    top: -1vw;
+    left: 72vw;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+}
+.majorobj{
+    background-color: aliceblue;
+    
+    border: none;
+    /* border: 1px solid;
+    border-radius: 4px; */
+    width: 25vw;
+    height: 11vw;
+    justify-content: center;
+    align-items: flex-start;
+}
+.majorobj iframe{
+    width: 25vw;
+    height: 18vw;
+}
+.copyright{
+    font-size: 1.2vw;
+    color: white;
+    position: relative;
+    top: 0vw;
+    left: 4vw;
+
+}
+.instalink pre{
+    
+    position: relative;
+    color: white;
+    font-size: 1vw;
+    top: -2vw;
+    left: 37vw;
+}
+.instalink pre a i{
+    color: white;
+    font-size: 1.5vw;
+}
